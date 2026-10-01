@@ -2,13 +2,13 @@
 
 TurfCast uses a role-based dashboard system with three user roles:
 
-* 👤 `USER`
-* 🧑‍💼 `TURF_AUTHOR`
-* 👑 `ADMIN`
+* `USER`
+* `TURF_AUTHOR`
+* `ADMIN`
 
 ---
 
-## 👤 General USER
+## General USER
 
 ### Menu
 
@@ -21,7 +21,7 @@ TurfCast uses a role-based dashboard system with three user roles:
 
 ---
 
-## 🧑‍💼 TURF_AUTHOR
+## TURF_AUTHOR
 
 ### Menu
 
@@ -46,7 +46,7 @@ TurfCast uses a role-based dashboard system with three user roles:
 
 ---
 
-## 👑 ADMIN
+## ADMIN
 
 ### Menu
 
@@ -74,16 +74,16 @@ TurfCast uses a role-based dashboard system with three user roles:
 
 | Role                | Access Scope                                                              |
 | ------------------- | ------------------------------------------------------------------------- |
-| 👤 `USER`           | Own account, bookings, matches, and payment history                       |
-| 🧑‍💼 `TURF_AUTHOR` | Assigned turf and its bookings, customers, matches, payments, and revenue |
-| 👑 `ADMIN`          | Entire TurfCast platform                                                  |
+| `USER`           | Own account, bookings, matches, and payment history                       |
+| `TURF_AUTHOR` | Assigned turf and its bookings, customers, matches, payments, and revenue |
+| `ADMIN`          | Entire TurfCast platform                                                  |
 
 ---
 
 # Sidebar Overview
 
 ```text
-👤 USER
+ USER
 
 Menu
 ├── Dashboard
@@ -95,7 +95,7 @@ Menu
 ```
 
 ```text
-🧑‍💼 TURF_AUTHOR
+ TURF_AUTHOR
 
 Menu
 ├── Dashboard
@@ -117,7 +117,7 @@ Finance
 ```
 
 ```text
-👑 ADMIN
+ ADMIN
 
 Menu
 ├── Dashboard
