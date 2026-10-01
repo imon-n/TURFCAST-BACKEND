@@ -80,19 +80,6 @@ TurfCast uses a role-based dashboard system with three user roles:
 
 ---
 
-# Logout
-
-The **Logout** option is available for all roles.
-
-When a user logs out:
-
-1. Firebase Authentication session is signed out.
-2. Frontend authentication state is cleared.
-3. User is redirected to the public/login page.
-4. Protected dashboard routes become inaccessible.
-
----
-
 # Sidebar Overview
 
 ```text
